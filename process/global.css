@@ -1,0 +1,313 @@
+/* Reset Browser Spacing Values*/
+html, body, ul, ol, li, p, h1, h2, h3, h4, h5, h6, form, fieldset, a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/*-----------GENERAL VALUES-----------*/
+p {
+	text-indent: 30px;
+	margin-bottom: 20px;
+}
+body {
+	background-color:#FFFFFF;
+	color:#000066;
+	font-size: 12px;
+	font-family: Verdana, Trebuchet MS, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	margin-left: 30px;
+	margin-right: 20px;
+
+}
+a:link {
+	color:#000099;
+}
+a:visited {
+	color:#3399FF;
+}
+a:hover {
+	color:#3399FF;
+}
+a:active{
+	color:#FF3333;
+}
+h1{
+	text-transform: capitalize;
+	font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+	font-size: 30px;
+}
+h2{
+	font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+	font-size: 25px;
+}
+h3{
+	font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+	font-size: 20px;
+}
+
+
+	div.downloadprintissue{
+		background: #D8D8D8;
+		width:450px;
+		padding-top:5px;
+		padding-left:10px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+
+
+/*-----------ABOUT.PHP---------------*/
+	#about_body{
+		text-align:center;
+	}
+	div.about_intro{
+		max-width:500px;
+		background:#99CCFF;
+		padding: 10px;
+	}
+/*-----------ARTICLEVIEW.PHP---------*/
+	#articleview_indent {
+		padding-left: 50px;
+		padding-right: 100px;
+		font-style: italic;
+	}
+	div.articleview_title, div.articleview_author, div.articleview_date {
+		text-transform: capitalize;
+		font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+		text-align:center;
+	}
+	div.articleview_title {
+		font-size: 30px;
+	}
+	div.articleview_author {
+		font-size: 20px;
+		
+	}
+	div.articleview_date {
+		font-size: 20px;
+	}
+	#articleview_pictures {
+		float: right;
+		margin: 10px;
+		width:50%;
+		min-width:400px;
+		color: #666666;
+		font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+		border-left-style: solid;
+		border-left-width: 2px;
+		border-left-color: #AAAAAA;
+		padding-left: 5px;
+		text-align:center;
+		font-style: italic;
+	}
+	#articleview_endpictures {
+		clear: both;
+	}
+	div.articleview_comments{
+		background: #99CCFF;
+		padding-bottom: 15px;
+	}
+	#articleview_comments {
+		font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+		color: #222222;
+	}
+
+/*-----------CARTOON.PHP-------------*/
+	div.cartoongrey{
+		padding-top: 15px;
+		background: #D8D8D8;
+		text-align:center;
+		width: 900px;
+	}
+	div.cartoonblue{
+		padding-top: 15px;
+		width:900px;
+		background: #99CCFF;
+		text-align:center;
+	}
+	
+/*-----------FOOTER.PHP--------------*/
+	div.footer {
+		font-family: Palatino Linotype, Palatino, Georgia, Times New Roman, Times, Serif;
+		text-align: center;
+		background: #D8D8D8;
+		font-size: 15px;
+		padding-top: 15px;
+		padding-bottom: 20px;
+		margin-bottom: 25px;
+		height: 200px;
+		margin: 0 20%;
+		min-width: 600px;
+	}
+	#footer_small {
+		font-size: 10px;
+		font-family: Verdana, Trebuchet MS, Helvetica, Tahoma, Geneva, Arial, sans-serif;
+	}
+
+/*-----------HEADER.PHP---------------*/
+	#header_whole {
+		margin-top: 15px;
+	}
+	div#header_nav{
+		display:block;
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 5px;
+		clear:right;
+		width: 100%;
+	}
+	ul#header_links{
+		list-style-type:none;
+		display:block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 66em;
+		text-align: left;
+	}
+	ul#header_links li{
+		list-style-type:none;
+		margin:0;
+		padding:0;
+		float:left;
+		margin-right: 3px;
+		text-align: center;
+	}
+	ul#header_links a{
+		float:left;
+		width: 7em;
+		padding: 5px 0;
+		background: #BBD9EE;
+		text-decoration:none;
+		color: #666;
+	}
+	#header_date {
+		clear: left;
+		word-spacing: 1px;
+		font-family: Verdana;
+		font-size: 10px;
+	}
+
+
+/*----------------INDEX.PHP-------------*/
+	#index_poll a:link, #index_poll a:visited, #index_poll a:hover, #index_poll a:active {
+		color:#00CCFF
+	}
+	#index_poll {
+		max-width:170px;
+	}
+	#index_articles a:link  #index_articles a:visited #index_articles a:hover #index_articles a:active {
+		border-color: #222222;
+		font-family: Verdana;
+		font-size: 12px;
+	}
+	#index_articlesleft{
+		border-right-style: solid;
+		border-right-width: 2px;
+		border-right-color: #AAAAAA;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	#index_articlesright{
+		border-left-style: solid;
+		border-left-width: 2px;
+		border-left-color: #AAAAAA;
+		padding-left: 10px;
+	}
+	div.index_author{
+		 font-style: italic;
+		 font-size: 10px;
+		 margin-bottom: 2px;
+	}
+	div#index_sections{
+		background: #99FFFF;
+		padding-top: 3px;
+		padding-bottom: 5px;
+		width: 500px;
+	}
+	div#index_sections a:link, div#index_sections a:visited, div#index_sections a:hover, div#index_sections a:active {
+		margin-right: 10px;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	div#index_poll{
+		background: #006666;
+		text-align: center;
+	}
+	div#index_articlesright,div#index_articlesleft{
+		background:#DDFFFF;
+		padding-top: 8px;
+		padding-bottom: 8px;
+	}
+	div#index_articlesright a:visited,div#index_articlesleft a:visited{
+		color: #0066FF;
+	}
+	div.index_inthisissue{
+		background: #99CCFF;
+		height:20px;
+		padding-top: 10px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		margin-right: 10px;
+	}
+	div.index_messages{
+		background: #99CCFF;
+		font-size: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+/*-----------OLD.INC----------------*/
+	div.old_newspapers td {
+		vertical-align: top;
+		text-align: left;
+		font-size:12px;
+		border: 0px;
+		margin-right: 6px;
+		margin-left: 6px;
+		margin-bottom: 3px;
+		margin-top: 3px;
+	}
+	div.old_newspapers th {
+		font-weight: normal;
+		text-align: left;
+		font-size: 14px;
+		border: 0px;
+		margin-right: 6px;
+		margin-left: 0px;
+		margin-bottom: 3px;
+		margin-top: 3px;
+	}
+	div.old_newspapers span {
+		font-size: 16px;
+	}
+
+/*-----------PHOTOS-------------------*/
+	div.photos_sections {
+		text-align: left;
+		background: #6699ff;
+		width: 500px;
+		padding: 15px;
+		padding-left: 50px;
+	}
+	div.photos_sections a:visited, a:hover{
+		color: #666666;
+	}
+	div.photos_sections h3{
+		text-align:center;
+	}
+
+/*-----------SECTIONS-----------------*/
+	/*FRONTPAGE.PHP--CAMPUS.PHP--SPORTS.PHP--OPED.PHP--SPORTS.PHP--TOEDITOR.PHP*/
+	#sections_pictures {
+		float: right;
+		margin: 10px;
+		clear: right;
+		width: 700px;
+		color: #666666;
+		font-family: Georgia;
+		text-align:center;
+		font-style: italic;
+	}
+	#sections_endpictures {
+		clear: both;
+	}

@@ -1,0 +1,4 @@
+AuthName "Restricted Area"
+AuthUserFile "/home/gnews/.htpasswds/public_html/cron/passwd"
+AuthType Basic
+require valid-user

@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFF url(../images/bg.gif);
+	font-family: Trebuchet MS, Verdana, arial, sans-serif;
+	text-align: center;
+	color: #FFF;
+}
+
+.novisible {
+	display: none;
+}
+
+h1#title {
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	margin: 40px auto 0 auto;
+	padding: 0;
+	width: 488px;
+	height: 51px;
+	background: transparent url(../images/2006.gif);
+}
+div.preview {
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	width: 625px;
+	margin: -1px auto 0 auto;
+	padding: 0;
+	border: 5px solid #FFF;
+	background: #FFF url(../images/intro.gif) no-repeat;
+	height: 449px;
+}
+
+div.preview a {
+	display: block;
+	float: left;
+	height: 449px;
+	width: 105px;
+}
+div.preview a.last {
+	width: 100px;
+}
+
+div#intro {
+	background-position: 0 0;
+}
+div#ra {
+	background-position: 0 -450px;
+}
+div#lb {
+	background-position: 0 -900px;
+}
+div#pf {
+	background-position: 0 -1350px;
+}
+div#pg {
+	background-position: 0 -1800px;
+}
+div#wj {
+	background-position: 0 -2250px;
+}
+div#jm {
+	background-position: 0 -2700px;
+}
+
+div#footer {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	display: block;
+	margin: 20px auto 0 auto;
+	padding: 0 0 50px 0;
+	width: 625px;
+}
+div#footer a {
+	color: #FFF;
+}
+div#footer a:hover {
+	text-decoration: none;
+}

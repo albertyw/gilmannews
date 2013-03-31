@@ -1,0 +1,26 @@
+			PAGE CREATION GUIDELINES
+
+
+<?php include("/home/gnews/public_html/process/headeropen.php");?>
+Gilman News Online ~~ TITLE OF PAGE
+<?php
+/*
+ADDRESS:	HTTP://WWW.GILMANNEWS.COM/
+STATUS:		UNCOMPLETE/MAINTANCE NEEDED/FINISHED
+LAST MODIFIED:	DATE BY ALBERT WANG '08
+DESCRIPTION:	DESCRIPTION
+USAGE:		LOCAL/SERVER/PASSWORDED/PUBLIC
+*/
+
+//Nifty Corners Cube Javascript Calls
+$footer=true;
+$header=true;
+//End Nifty Corners Cube Javascript Calls
+?>
+<?php include("/home/gnews/public_html/process/headermiddle.php");
+include("/home/gnews/public_html/process/header.php");?>
+
+<h1>TITLE</h1>
+TEXT
+
+<?php include("/home/gnews/public_html/process/footer.php");?>
